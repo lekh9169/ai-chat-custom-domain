@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.user {
+  text-align: right;
+  color: blue;
+}
+
+.assistant {
+  text-align: left;
+  color: green;
+}
+
+/* Add these styles to your existing CSS file */
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.messages {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-left,
+.message-right {
+  max-width: 70%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.user-input {
+  margin-top: 10px;
+}
+
+.input-group {
+  display: flex;
+}
+
+.form-control {
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+}
